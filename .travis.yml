@@ -1,4 +1,6 @@
 language: rust
+before_install:
+  - cd advent-of-code
 rust:
   - stable
   - beta
