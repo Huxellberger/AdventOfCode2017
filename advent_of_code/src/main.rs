@@ -12,6 +12,5 @@ fn main()
 mod tests {
     #[test]
     fn it_works() {
-        panic!("Test failing to give travis a spin!");
     }
 }
