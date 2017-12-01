@@ -3,9 +3,8 @@ use input;
 pub fn run_day_1_a()
 {
     let input = input::input_reader::read_file("input/day_1_a.txt");
-    get_successive_numbers(&input);
 
-    println!("{}",  get_successive_numbers(&input));
+    println!("day 1 a result: {}",  get_successive_numbers(&input));
 }
 
 pub fn get_successive_numbers(input_string: &str) -> u32
